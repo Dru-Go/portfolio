@@ -3,8 +3,8 @@ import React from 'react';
 
 const classes = {
   wrapper: 'mb-6',
-  name: 'font-semibold text-gray-900 pb-1',
-  description: 'text-md text-gray-600 font-light',
+  name: 'font-semibold text-gray-800 pb-1',
+  description: 'text-md text-gray-800 font-light',
 };
 
 const SummaryItem = ({ name, description, link = false, internal = false }) => {
@@ -12,7 +12,7 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
   if (internal) {
     linkContent = <Link to={link}>{name}</Link>;
   } else {
-    linkContent = <a target="_blank" href={link}>{name}</a>;
+    linkContent = <a href={link} target="_blank" rel='noreferrer' >{name}</a>;
   }
 
   return (

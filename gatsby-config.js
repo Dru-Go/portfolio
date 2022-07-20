@@ -72,7 +72,7 @@ module.exports = {
     skills: [
       {
         name: 'Languages & Frameworks',
-        description: 'JavaScript (ES6+), Node.js, Express.js ,React, Golang',
+        description: 'JavaScript (ES6+), Node.js, Express.js, React, Golang',
       },
       {
         name: 'Databases',

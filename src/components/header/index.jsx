@@ -40,6 +40,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               <a
               target="_blank"
                 className={classes.link}
+                 rel='noreferrer'
                 href={`https://twitter.com/${twitter}`}
               >
                 Twitter
@@ -48,14 +49,14 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           )}
           {github && (
             <li className={classes.item}>
-              <a target="_blank" className={classes.link} href={github}>
+              <a target="_blank" className={classes.link} href={github}  rel='noreferrer'>
                 GitHub
               </a>
             </li>
           )}
           {linkedin && (
             <li className={classes.item}>
-              <a target="_blank" className={classes.link} href={linkedin}>
+              <a target="_blank" className={classes.link} href={linkedin}  rel='noreferrer'>
                 LinkedIn
               </a>
             </li>

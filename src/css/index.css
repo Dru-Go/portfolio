@@ -41,7 +41,7 @@
 
   .blog-content h2 {
     @apply text-2xl;
-    @apply text-gray-900;
+    @apply text-gray-700;
     @apply font-bold;
     @apply my-3;
   }
@@ -106,7 +106,7 @@ pre[class*='language-'] {
   color: #c5c8c6;
   text-shadow: 0 1px rgba(0, 0, 0, 0.3);
   font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
-  font-size: 0.75rem;
+  font-size: 1rem;
   direction: ltr;
   margin-bottom: 1.5rem;
   text-align: left;
@@ -135,7 +135,7 @@ pre[class*='language-'] {
 
 :not(pre) > code[class*='language-'],
 pre[class*='language-'] {
-  background: #1d1f21;
+  background: #3c3e41;
 }
 
 /* Inline code */

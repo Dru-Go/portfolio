@@ -155,7 +155,6 @@ git log --oneline --graph --all --decorate # cool log
 ## Git Checkout
 
 - Used to undo some changes from the working repo
-  > **cleanup the working directory**
 
 ```sh
 git checkout -- <filename/foldername> # -- tells git to look for the file/folder in the current folder instead of looking for a branch
@@ -255,9 +254,9 @@ git merge --ff-only <branch_name> # make merge only if u can do a fast forward m
 git branch --merged
 ```
 
-**NOTE make sure you have a clean working directory before you make a merge**
+> NOTE make sure you have a clean working directory before you make a merge
 
-# Abort merge
+## Abort merge
 
 ```sh
 git merge --abort
