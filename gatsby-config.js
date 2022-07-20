@@ -22,6 +22,11 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'Ahun',
+        description: 'A Company website to showcase our services',
+        link: 'https://ahun.app',
+      },
+      {
         name: 'Sneak Peek',
         description:
           'A simple cheat-sheet for the most useful guides  on the internet',
@@ -38,7 +43,7 @@ module.exports = {
         description:
           'A simple feed that uses firebase auth and GCP to upload images',
         link: 'https://github.com/Dru-Go/feedme',
-      }
+      },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
@@ -67,8 +72,7 @@ module.exports = {
     skills: [
       {
         name: 'Languages & Frameworks',
-        description:
-          'JavaScript (ES6+), Node.js, Express.js ,React, Golang',
+        description: 'JavaScript (ES6+), Node.js, Express.js ,React, Golang',
       },
       {
         name: 'Databases',

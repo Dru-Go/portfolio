@@ -12,7 +12,7 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
   if (internal) {
     linkContent = <Link to={link}>{name}</Link>;
   } else {
-    linkContent = <a href={link}>{name}</a>;
+    linkContent = <a target="_blank" href={link}>{name}</a>;
   }
 
   return (
