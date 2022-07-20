@@ -13,7 +13,7 @@ module.exports = {
     // Optional: Github account URL
     github: `https://github.com/Dru-Go`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/dera-adugna-016856244/`,
+    linkedin: `https://www.linkedin.com/in/dera-adugna`,
     // Content of the About Me section
     about: `
     Few words that describe who i am: \n
