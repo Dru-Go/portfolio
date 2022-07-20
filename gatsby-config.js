@@ -16,7 +16,7 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/dera-adugna-016856244/`,
     // Content of the About Me section
     about: `
-    Few words that describe what i am: 
+    Few words that describe who i am: \n
     Disciplined, Persistent, Intelligent, Witty, Motivated, Attentive and Hard-working  
     `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
@@ -49,8 +49,13 @@ module.exports = {
       },
       {
         name: 'Codenight',
-        description: 'Frontend Developer, December 2019 - February 2020',
-        link: 'https://www.facebook.com/deebiitechnologies/',
+        description: 'Community Event Founder and Coordinator',
+        link: 'https://t.me/CodeNight',
+      },
+      {
+        name: 'Addis Software',
+        description: 'Backend Developer October 2020 - December 2020',
+        link: 'https://addissoftware.com/',
       },
       {
         name: 'Deebii Technologies',
