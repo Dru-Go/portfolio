@@ -1,58 +1,61 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://dera.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Dera Adugna',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Dera Adugna | Full-Stack Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Senior Full-Stack Developer at Ahun`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@5ilc0_`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/Dru-Go`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/dera-adugna-016856244/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `
+    Few words that describe what i am: 
+    Disciplined, Persistent, Intelligent, Witty, Motivated, Attentive and Hard-working  
+    `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Sneak Peek',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A simple cheat-sheet for the most useful guides  on the internet',
+        link: 'https://github.com/Dru-Go/sneak-peak',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Tereka',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'An audio book built with React Apollo and Tailwind (Typescript Client) AND Nodejs and Express-Graphql (Server)',
+        link: 'https://github.com/Dru-Go/Tereka',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Feedme',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+          'A simple feed that uses firebase auth and GCP to upload images',
+        link: 'https://github.com/Dru-Go/feedme',
+      }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Ahun App (Prime Marven Engineering)',
+        description: 'Full-Stack Developer, January 2021 - Present',
+        link: 'https://ahun.app',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Codenight',
+        description: 'Frontend Developer, December 2019 - February 2020',
+        link: 'https://www.facebook.com/deebiitechnologies/',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Deebii Technologies',
+        description: 'Frontend Developer, December 2019 - February 2020',
+        link: 'https://www.facebook.com/deebiitechnologies/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,16 +63,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript (ES6+), Node.js, Express.js ,React, Golang',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MongoDB, Redis and Elastic Cache, Postgres',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Payment Gateway (CBE, Telebirr, ...), Docker, Amazon Web Services (AWS), CI / CD, Microservices, Message brokers (Rabbitmq and Kafka), API design, Agile / Scrum',
       },
     ],
   },
