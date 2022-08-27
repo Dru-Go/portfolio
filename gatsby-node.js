@@ -83,6 +83,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type SectionItem {
       name: String!
       description: String!
+      reference: String
       link: String!
     }
 

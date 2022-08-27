@@ -16,20 +16,19 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/dera-adugna`,
     // Content of the About Me section
     about: `
-    Few words that describe who i am: \n
-    Disciplined, Persistent, Intelligent, Witty, Motivated, Attentive and Hard-working  
+    I would describe myself as highly curious and focused on learning in all parts of life, personal and professional. In my professional life, I look for the hardest problems to solve and where I can learn and develop the most. I've taken on many different types of projects, From large scale eCommerce application to complicated financial accounting systems. No matter what I'm working on, I'm very invested.
     `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: 'Ahun',
-        description: 'A Company website to showcase our services',
+        description: 'A Responsive Company website that make use of Next.js frontend and Elastic backend ',
         link: 'https://ahun.app',
       },
       {
         name: 'Sneak Peek',
         description:
-          'A simple cheat-sheet for the most useful guides  on the internet',
+          'A simple cheat-sheet for the most useful guides on the internet',
         link: 'https://github.com/Dru-Go/sneak-peak',
       },
       {
@@ -50,6 +49,7 @@ module.exports = {
       {
         name: 'Ahun App (Prime Marven Engineering)',
         description: 'Full-Stack Developer, January 2021 - Present',
+        reference: 'https://drive.google.com/file/d/1E0niRXL1Tt1Tobe3V8uC1fa307u5x5ZK/view?usp=sharing',
         link: 'https://ahun.app',
       },
       {
@@ -72,7 +72,7 @@ module.exports = {
     skills: [
       {
         name: 'Languages & Frameworks',
-        description: 'JavaScript (ES6+), Node.js, Express.js, React, Golang',
+        description: 'Typescript (ES6+), Node.js, Express.js, React, Golang',
       },
       {
         name: 'Databases',
@@ -81,7 +81,11 @@ module.exports = {
       {
         name: 'Other',
         description:
-          'Payment Gateway (CBE, Telebirr, ...), Docker, Amazon Web Services (AWS), CI / CD, Microservices, Message brokers (Rabbitmq and Kafka), API design, Agile / Scrum',
+          `Payment Gateway (CBE, Telebirr, CBE Birr, Paypal, Stripe),  
+          Docker, CI / CD, \n
+          Amazon Web Services (AWS), Ec2 \n
+          Microservices, Message brokers (Rabbitmq and Kafka), \n
+          API design, Agile / Scrum`,
       },
     ],
   },
